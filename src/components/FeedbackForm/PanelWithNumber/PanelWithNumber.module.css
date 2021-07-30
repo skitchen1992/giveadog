@@ -1,0 +1,106 @@
+.panel{
+    height: 100vh;
+    width: 20%;
+    background: #86D3F4;
+    padding: 70px 55px;
+    position: fixed;
+
+}
+.inputNumber{
+    background: #86D3F4;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    line-height: 50px;
+    font-weight: bold;
+    width: 100%;
+
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0 ;
+}
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 32px;
+    width: 39px;
+    background-color: #86D3F4;
+
+    cursor: pointer;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+
+}
+.label{
+    cursor: pointer;
+    font-size: 11px;
+    margin-left: 10px;
+    color: #565656;
+}
+input[type="checkbox"]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 18px;
+    display: none;
+}
+input[type="checkbox"]:hover{
+    background-color: #bceff7;
+}
+input[type="checkbox"]:checked{
+    background-color: #86D3F4;
+}
+input[type="checkbox"]:checked:after{
+    display: block;
+}
+.button{
+    width: 100%;
+    background-color: #86D3F4;
+    color: #4E4E4E;
+    text-transform: uppercase;
+    height: 45px;
+
+}
+.isButton{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    height: 45px;
+}
+.wrapPromoFinal{
+    margin-top: 75%;
+    text-align: center;
+}
+.wrapPromoFinalTitle{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.wrapPromoFinalText{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+
+

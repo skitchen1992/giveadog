@@ -1,0 +1,23 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.border{
+    border: 2px solid black;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.border:hover{
+    background-color: black;
+    color: white;
+}
+
+.item_del {
+    grid-area: 4/1/5/span 2;
+}
+
