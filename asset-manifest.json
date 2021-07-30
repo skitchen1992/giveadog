@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/giveadog/static/css/main.772c1f8d.chunk.css",
+    "main.js": "/giveadog/static/js/main.8f4e96a1.chunk.js",
+    "main.js.map": "/giveadog/static/js/main.8f4e96a1.chunk.js.map",
+    "runtime-main.js": "/giveadog/static/js/runtime-main.2f7564fb.js",
+    "runtime-main.js.map": "/giveadog/static/js/runtime-main.2f7564fb.js.map",
+    "static/js/2.bf94160d.chunk.js": "/giveadog/static/js/2.bf94160d.chunk.js",
+    "static/js/2.bf94160d.chunk.js.map": "/giveadog/static/js/2.bf94160d.chunk.js.map",
+    "static/js/3.46a84cea.chunk.js": "/giveadog/static/js/3.46a84cea.chunk.js",
+    "static/js/3.46a84cea.chunk.js.map": "/giveadog/static/js/3.46a84cea.chunk.js.map",
+    "index.html": "/giveadog/index.html",
+    "static/css/main.772c1f8d.chunk.css.map": "/giveadog/static/css/main.772c1f8d.chunk.css.map",
+    "static/js/2.bf94160d.chunk.js.LICENSE.txt": "/giveadog/static/js/2.bf94160d.chunk.js.LICENSE.txt",
+    "static/media/Video1.0bd8a398.mp4": "/giveadog/static/media/Video1.0bd8a398.mp4",
+    "static/media/index 1.badbde5c.jpg": "/giveadog/static/media/index 1.badbde5c.jpg",
+    "static/media/FeedbackForm.module.css": "/giveadog/static/media/scale_1200 1.a928b781.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f7564fb.js",
+    "static/js/2.bf94160d.chunk.js",
+    "static/css/main.772c1f8d.chunk.css",
+    "static/js/main.8f4e96a1.chunk.js"
+  ]
+}
