@@ -1,5 +1,5 @@
 
-.fullScreenVideo{
+.fullScreenVideo {
     position: absolute;
     top: 0;
     left: 0;
@@ -18,11 +18,13 @@
     width: 250px;
     text-align: center;
     padding: 20px 10px;
-    background-color:#86D3F4 ;
+    background-color: #86D3F4;
 }
+
 .contentHide {
     display: flex;
 }
+
 .contentTitle {
     font-weight: 500;
     font-size: 16px;
@@ -30,7 +32,8 @@
     display: flex;
     text-transform: uppercase;
 }
-.contentSubTitle{
+
+.contentSubTitle {
     font-size: 14px;
     line-height: 16px;
     display: flex;
@@ -40,15 +43,15 @@
 }
 
 
-
-.img{
+.img {
     padding: 30px 0;
     width: 125px;
     height: 125px;
 }
-.button{
+
+.button {
     background-color: black;
-    padding: 15px 70px ;
+    padding: 15px 70px;
     color: #86D3F4;
     margin-top: 30px;
 }

@@ -1,10 +1,10 @@
-.wrapper{
-    background: url('/src/img/scale_1200 1.jpg') center center/cover no-repeat ;
+.wrapper {
+    background: url('/src/img/scale_1200 1.jpg') center center/cover no-repeat;
     height: 100vh;
     display: flex;
 }
 
-.wrap{
+.wrap {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -12,25 +12,29 @@
     margin: 20px;
 
 }
-.qr{
+
+.qr {
     margin-top: 73vh;
     color: white;
     display: flex;
     align-items: center;
 }
-.text{
+
+.text {
     width: 200px;
     text-transform: uppercase;
     text-align: right;
     margin-right: 15px;
 
 }
-.button{
+
+.button {
     padding: 10px 30px;
     font-size: 17px;
     font-weight: bold;
 }
-.changeColorButton{
+
+.changeColorButton {
     background-color: black;
     color: white;
 }

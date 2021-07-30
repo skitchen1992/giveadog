@@ -1,4 +1,4 @@
-.panel{
+.panel {
     height: 100vh;
     width: 20%;
     background: #86D3F4;
@@ -6,7 +6,8 @@
     position: fixed;
 
 }
-.inputNumber{
+
+.inputNumber {
     background: #86D3F4;
     outline: 0;
     border: none;
@@ -16,24 +17,26 @@
     width: 100%;
 
 }
-.checkbox{
+
+.checkbox {
     width: 20px;
     height: 20px;
     color: black;
 }
-.wrapper{
+
+.wrapper {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 30px 0 ;
+    margin: 30px 0;
 }
-input[type="checkbox"]{
+
+input[type="checkbox"] {
     appearance: none;
     -webkit-appearance: none;
     height: 32px;
     width: 39px;
     background-color: #86D3F4;
-
     cursor: pointer;
     border: 2px solid black;
     display: flex;
@@ -42,29 +45,35 @@ input[type="checkbox"]{
     outline: none;
 
 }
-.label{
+
+.label {
     cursor: pointer;
     font-size: 11px;
     margin-left: 10px;
     color: #565656;
 }
-input[type="checkbox"]:after{
+
+input[type="checkbox"]:after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f00c";
     font-size: 18px;
     display: none;
 }
-input[type="checkbox"]:hover{
+
+input[type="checkbox"]:hover {
     background-color: #bceff7;
 }
-input[type="checkbox"]:checked{
+
+input[type="checkbox"]:checked {
     background-color: #86D3F4;
 }
-input[type="checkbox"]:checked:after{
+
+input[type="checkbox"]:checked:after {
     display: block;
 }
-.button{
+
+.button {
     width: 100%;
     background-color: #86D3F4;
     color: #4E4E4E;
@@ -72,7 +81,8 @@ input[type="checkbox"]:checked:after{
     height: 45px;
 
 }
-.isButton{
+
+.isButton {
     background-color: black;
     color: white;
     cursor: pointer;
@@ -80,11 +90,13 @@ input[type="checkbox"]:checked:after{
     text-transform: uppercase;
     height: 45px;
 }
-.wrapPromoFinal{
+
+.wrapPromoFinal {
     margin-top: 75%;
     text-align: center;
 }
-.wrapPromoFinalTitle{
+
+.wrapPromoFinalTitle {
     font-weight: bold;
     font-size: 32px;
     line-height: 37px;
@@ -92,7 +104,8 @@ input[type="checkbox"]:checked:after{
     text-transform: uppercase;
     color: #000000;
 }
-.wrapPromoFinalText{
+
+.wrapPromoFinalText {
     margin-top: 15px;
     font-style: normal;
     font-weight: normal;

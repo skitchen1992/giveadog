@@ -30,7 +30,9 @@ export const PanelWithNumber: React.FC<PanelWithNumberType> = ({
             {isConfirmNumber
                 ? <div className={s.wrapPromoFinal}>
                     <div className={s.wrapPromoFinalTitle}>ЗАЯВКА ПРИНЯТА</div>
-                    <div className={s.wrapPromoFinalText}>Держите телефон под рукой. Скоро с Вами свяжется наш менеджер.</div>
+                    <div className={s.wrapPromoFinalText}>Держите телефон под рукой. Скоро с Вами свяжется наш
+                        менеджер.
+                    </div>
                 </div>
                 : <>
                     <div>Введите ваш номер мобильного телефона</div>
@@ -50,8 +52,6 @@ export const PanelWithNumber: React.FC<PanelWithNumberType> = ({
                     </button>
                 </>
             }
-
-
         </div>
     );
 }

@@ -5,18 +5,19 @@ import QR from "../../img/index 1.jpg"
 
 
 type FeedbackFormType = {
-    valueNumber:string,
-    changeNumber:(value:string)=>void
-    onChangeNumber:(e:ChangeEvent<HTMLInputElement>)=>void
-    changePersonalData:()=>void
-    isPersonalData:boolean
-    isButtonAccept:boolean
-    confirmNumber:()=>void
-    isConfirmNumber:boolean
-    returnToStartPage:()=>void
+    valueNumber: string,
+    changeNumber: (value: string) => void
+    onChangeNumber: (e: ChangeEvent<HTMLInputElement>) => void
+    changePersonalData: () => void
+    isPersonalData: boolean
+    isButtonAccept: boolean
+    confirmNumber: () => void
+    isConfirmNumber: boolean
+    returnToStartPage: () => void
 }
 
-export const FeedbackForm: React.FC<FeedbackFormType> = ({valueNumber,
+export const FeedbackForm: React.FC<FeedbackFormType> = ({
+                                                             valueNumber,
                                                              changeNumber,
                                                              onChangeNumber,
                                                              changePersonalData,
@@ -24,9 +25,10 @@ export const FeedbackForm: React.FC<FeedbackFormType> = ({valueNumber,
                                                              isButtonAccept,
                                                              confirmNumber,
                                                              isConfirmNumber,
-                                                             returnToStartPage }) => {
+                                                             returnToStartPage
+                                                         }) => {
 
-    const finalStyleButton=`${s.button} ${isConfirmNumber && s.changeColorButton}`
+    const finalStyleButton = `${s.button} ${isConfirmNumber && s.changeColorButton}`
 
     return (
         <div className={s.wrapper}>
@@ -41,12 +43,12 @@ export const FeedbackForm: React.FC<FeedbackFormType> = ({valueNumber,
             />
             <div className={s.wrap}>
                 <div>
-                    <button onClick={returnToStartPage } className={finalStyleButton}>X</button>
+                    <button onClick={returnToStartPage} className={finalStyleButton}>X</button>
                 </div>
 
                 <div className={s.qr}>
                     <div className={s.text}>Сканируйте QR-код ДЛЯ ПОЛУЧЕНИЯ ДОПОЛНИТЕЛЬНОЙ ИНФОРМАЦИИ</div>
-                    <img src={QR }/>
+                    <img src={QR}/>
                 </div>
             </div>
 
