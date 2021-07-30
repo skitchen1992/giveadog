@@ -13,6 +13,7 @@ type FeedbackFormType = {
     isButtonAccept:boolean
     confirmNumber:()=>void
     isConfirmNumber:boolean
+    returnToStartPage:()=>void
 }
 
 export const FeedbackForm: React.FC<FeedbackFormType> = ({valueNumber,
@@ -22,9 +23,10 @@ export const FeedbackForm: React.FC<FeedbackFormType> = ({valueNumber,
                                                              isPersonalData,
                                                              isButtonAccept,
                                                              confirmNumber,
-                                                             isConfirmNumber}) => {
+                                                             isConfirmNumber,
+                                                             returnToStartPage }) => {
 
-    const finalStyleButton=`${s.button} ${isConfirmNumber && s.changeColorButton}  `
+    const finalStyleButton=`${s.button} ${isConfirmNumber && s.changeColorButton}`
 
     return (
         <div className={s.wrapper}>
@@ -39,7 +41,7 @@ export const FeedbackForm: React.FC<FeedbackFormType> = ({valueNumber,
             />
             <div className={s.wrap}>
                 <div>
-                    <button className={finalStyleButton}>X</button>
+                    <button onClick={returnToStartPage } className={finalStyleButton}>X</button>
                 </div>
 
                 <div className={s.qr}>

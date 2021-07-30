@@ -8,6 +8,16 @@ function App() {
     const [isPersonalData, setIsPersonalData] = useState<boolean>(false)
     const [isConfirmNumber, setIsConfirmNumber] = useState<boolean>(false)
     const [isReadyToOrder, setIsReadyToOrder] = useState<boolean>(false)
+    const [isViewBanner, setIsViewBanner] = useState<boolean>(false)
+
+    useEffect(() => {
+        setTimeout(() => {
+            setIsViewBanner(true)
+        }, 5000)
+    }, [])
+    const goToFeedbackForm = () => {
+        setIsReadyToOrder(true)
+    }
 
     const changeNumber = (value: string) => {
         if (value === "Стереть") {
@@ -33,22 +43,25 @@ function App() {
         }
     }, [valueNumber, isPersonalData])
 
+    const returnToStartPage = () => {
+        setIsReadyToOrder(false)
+    }
 
     return (
         <div className="App">
             {isReadyToOrder
                 ? <FeedbackForm valueNumber={valueNumber}
-                              changeNumber={changeNumber}
-                              onChangeNumber={onChangeNumber}
-                              changePersonalData={changePersonalData}
-                              isPersonalData={isPersonalData}
-                              isButtonAccept={isButtonAccept}
-                              confirmNumber={confirmNumber}
-                              isConfirmNumber={isConfirmNumber}
+                                changeNumber={changeNumber}
+                                onChangeNumber={onChangeNumber}
+                                changePersonalData={changePersonalData}
+                                isPersonalData={isPersonalData}
+                                isButtonAccept={isButtonAccept}
+                                confirmNumber={confirmNumber}
+                                isConfirmNumber={isConfirmNumber}
+                                returnToStartPage={returnToStartPage}
                 />
-                :<StartPage/>
+                : <StartPage goToFeedbackForm={goToFeedbackForm} isViewBanner={isViewBanner}/>
             }
-
 
         </div>
     );
