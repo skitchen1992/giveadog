@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/giveadog/static/css/main.772c1f8d.chunk.css",
-    "main.js": "/giveadog/static/js/main.8f4e96a1.chunk.js",
-    "main.js.map": "/giveadog/static/js/main.8f4e96a1.chunk.js.map",
+    "main.js": "/giveadog/static/js/main.02cd577c.chunk.js",
+    "main.js.map": "/giveadog/static/js/main.02cd577c.chunk.js.map",
     "runtime-main.js": "/giveadog/static/js/runtime-main.2f7564fb.js",
     "runtime-main.js.map": "/giveadog/static/js/runtime-main.2f7564fb.js.map",
     "static/js/2.bf94160d.chunk.js": "/giveadog/static/js/2.bf94160d.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.2f7564fb.js",
     "static/js/2.bf94160d.chunk.js",
     "static/css/main.772c1f8d.chunk.css",
-    "static/js/main.8f4e96a1.chunk.js"
+    "static/js/main.02cd577c.chunk.js"
   ]
 }
