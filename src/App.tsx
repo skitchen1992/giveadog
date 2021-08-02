@@ -11,10 +11,14 @@ function App() {
     const [isViewBanner, setIsViewBanner] = useState<boolean>(false)
 
     useEffect(() => {
-        setTimeout(() => {
+         const setTimeoutID= setTimeout(() => {
             setIsViewBanner(true)
         }, 5000)
+         return ()=>{
+             clearTimeout(setTimeoutID)
+         }
     }, [])
+
     const goToFeedbackForm = () => {
         setIsReadyToOrder(true)
     }
